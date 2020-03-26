@@ -11,7 +11,7 @@ const Util = require('../../Utils/Util');
  */
 class Arcane extends ServiceBase {
   static get aliases() {
-    return ['arcanebotcenter', 'arcane-botcenter.xyz', 'arcanebotcenter.xyz', 'arcane', 'abc'];
+    return ['arcanebotcenter', 'arcane-center.xyz', 'arcanebotcenter.xyz', 'arcane', 'abc'];
   }
 
   static get logoURL() {
@@ -23,11 +23,11 @@ class Arcane extends ServiceBase {
   }
 
   static get websiteURL() {
-    return 'https://arcane-botcenter.xyz';
+    return 'https://arcane-center.xyz';
   }
 
   static get baseURL() {
-    return 'https://arcane-botcenter.xyz/api';
+    return 'https://arcane-center.xyz/api';
   }
 
   /**
